@@ -4,7 +4,7 @@ import { createSvgIconsPlugin } from 'vite-plugin-svg-icons'
 import path from 'path'
 
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production' ? '/Xavier-CN.github.io/' : '/',
+  base: '/',
   plugins: [
     vue(),
     createSvgIconsPlugin({
